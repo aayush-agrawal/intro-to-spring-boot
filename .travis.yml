@@ -4,9 +4,9 @@ jdk: openjdk11
 
 services:
   - docker
- 
+   
 script:
-  - ./book-service/mvnw clean install -B
+  - mvn clean install -f ./book-service/pom.xml  -B
 
 after_success:
   - docker build -t aayush4v/book-service -f ./book-service/Dockerfile ./book-service  
