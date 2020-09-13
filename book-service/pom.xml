@@ -98,7 +98,7 @@
 				<version>2.5.2</version>
 				<configuration>
 				<from>
-					<image>openjdk:alpine</image>
+					<image>adoptopenjdk/openjdk11</image>
 				</from>
 					<to>
 						<image>aayush4v/intro-to-spring-boot</image>
@@ -119,9 +119,9 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			
- -->		
+		
 <!-- 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>

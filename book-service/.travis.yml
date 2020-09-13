@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+  
+before_install:
+  - docker build -t aayush4v/book-service -f ./book-service/Dockerfile ./book-service  
